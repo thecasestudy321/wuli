@@ -1,0 +1,282 @@
+﻿{
+  "title": "滑动变阻器的使用",
+  "exportBg": false,
+  "exportMode": 0,
+  "showCurrent": true,
+  "style": {
+    "bgColor": "#ffffff",
+    "wireColor": "#000000",
+    "eqColor": "#000000"
+  },
+  "data": {
+    "scale": 0.08326336700000003,
+    "viewBox": {
+      "x": 2847.6489546717467,
+      "y": 2363.144154379441,
+      "width": 9463.945891114392,
+      "height": 5320.467042847305
+    },
+    "compArr": [
+      {
+        "className": "SlideRheostat2",
+        "UID": 1552895898577,
+        "x": 6144,
+        "y": 3840,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "label": {
+          "text": "R",
+          "subText": ""
+        },
+        "posts": [
+          {
+            "UID": 3289604447034
+          },
+          {
+            "UID": 3734577139559
+          },
+          {
+            "UID": 3317416196418
+          },
+          {
+            "UID": 3563135897286
+          }
+        ],
+        "type": 2
+      },
+      {
+        "className": "Resistance",
+        "UID": 1552895901500,
+        "x": 8448,
+        "y": 4352,
+        "rotType": 3,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 5,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "label": {
+          "text": "R",
+          "subText": "1"
+        },
+        "posts": [
+          {
+            "UID": 3235722563201
+          },
+          {
+            "UID": 1552895901503
+          }
+        ]
+      },
+      {
+        "className": "DCPower",
+        "UID": 4103456365676,
+        "x": 4864,
+        "y": 5632,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 1.5,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "label": {
+          "text": "",
+          "subText": ""
+        },
+        "posts": [
+          {
+            "UID": 1552895905292
+          },
+          {
+            "UID": 3331040505118
+          }
+        ],
+        "skinType": 1
+      },
+      {
+        "className": "SingleSwitch",
+        "UID": 1552895919616,
+        "x": 7424,
+        "y": 5632,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": true,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "label": {
+          "text": "S",
+          "subText": "1"
+        },
+        "posts": [
+          {
+            "UID": 3605799196387
+          },
+          {
+            "UID": 3674017111087
+          }
+        ]
+      }
+    ],
+    "wireArr": [
+      {
+        "className": "ElecWire",
+        "UID": 3947798538054,
+        "x": 0,
+        "y": 0,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "post0": {
+          "UID": 3150564413107,
+          "driver": 3331040505118
+        },
+        "post1": {
+          "UID": 1552895926804,
+          "driver": 3605799196387
+        },
+        "routedByUserInteraction": false
+      },
+      {
+        "className": "ElecWire",
+        "UID": 3426618836230,
+        "x": 0,
+        "y": 0,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "post0": {
+          "UID": 1552895930827,
+          "driver": 3674017111087
+        },
+        "post1": {
+          "UID": 3590370456846,
+          "driver": 3235722563201
+        },
+        "routedByUserInteraction": true,
+        "vertices": [
+          {
+            "x": 7936,
+            "y": 5632
+          },
+          {
+            "x": 7936,
+            "y": 5632
+          },
+          {
+            "x": 8448,
+            "y": 5632
+          },
+          {
+            "x": 8448,
+            "y": 4864
+          },
+          {
+            "x": 8448,
+            "y": 4864
+          }
+        ]
+      },
+      {
+        "className": "ElecWire",
+        "UID": 3330207056614,
+        "x": 0,
+        "y": 0,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "post0": {
+          "UID": 3970993339148,
+          "driver": 1552895901503
+        },
+        "post1": {
+          "UID": 4294624645050,
+          "driver": 3317416196418
+        },
+        "routedByUserInteraction": false
+      },
+      {
+        "className": "ElecWire",
+        "UID": 4103601507884,
+        "x": 0,
+        "y": 0,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "post0": {
+          "UID": 1552895936363,
+          "driver": 3289604447034
+        },
+        "post1": {
+          "UID": 3674676856512,
+          "driver": 1552895905292
+        },
+        "routedByUserInteraction": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,304 @@
+﻿{
+  "title": "用电流表测电流",
+  "exportBg": false,
+  "exportMode": 0,
+  "showCurrent": true,
+  "style": {
+    "bgColor": "#ffffff",
+    "wireColor": "#000000",
+    "eqColor": "#000000"
+  },
+  "data": {
+    "scale": 0.11947996830176856,
+    "viewBox": {
+      "x": 3462.94243476406,
+      "y": 1620.6681717563915,
+      "width": 4887.8486352206,
+      "height": 2862.404508981927
+    },
+    "compArr": [
+      {
+        "className": "DCPower",
+        "UID": 1552890058434,
+        "x": 5120,
+        "y": 2048,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 1.5,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "label": {
+          "text": "",
+          "subText": ""
+        },
+        "posts": [
+          {
+            "UID": 1552890058437
+          },
+          {
+            "UID": 3311540360358
+          }
+        ],
+        "skinType": 1
+      },
+      {
+        "className": "SingleSwitch",
+        "UID": 1552890061724,
+        "x": 6656,
+        "y": 2048,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": true,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "label": {
+          "text": "",
+          "subText": ""
+        },
+        "posts": [
+          {
+            "UID": 3742685112217
+          },
+          {
+            "UID": 1552890061731
+          }
+        ]
+      },
+      {
+        "className": "Bulb",
+        "UID": 3441106285063,
+        "x": 5888,
+        "y": 3584,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 8.333333333333334,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0.75,
+        "ratedU": 2.5,
+        "ratedI": 0,
+        "label": {
+          "text": "L",
+          "subText": "1"
+        },
+        "posts": [
+          {
+            "UID": 1552890064966
+          },
+          {
+            "UID": 3660736524722
+          }
+        ]
+      },
+      {
+        "className": "AmMeter",
+        "UID": 3363472810568,
+        "x": 4096,
+        "y": 2816,
+        "rotType": 1,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "label": {
+          "text": "A",
+          "subText": "1"
+        },
+        "posts": [
+          {
+            "UID": 1552890071563
+          },
+          {
+            "UID": 1552890071566
+          },
+          {
+            "UID": 4195422675876
+          }
+        ]
+      }
+    ],
+    "wireArr": [
+      {
+        "className": "ElecWire",
+        "UID": 1552890076808,
+        "x": 0,
+        "y": 0,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "post0": {
+          "UID": 1552890076811,
+          "driver": 3311540360358
+        },
+        "post1": {
+          "UID": 3458535713519,
+          "driver": 3742685112217
+        },
+        "routedByUserInteraction": false
+      },
+      {
+        "className": "ElecWire",
+        "UID": 1552890079036,
+        "x": 0,
+        "y": 0,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "post0": {
+          "UID": 1552890079039,
+          "driver": 1552890061731
+        },
+        "post1": {
+          "UID": 1552890079042,
+          "driver": 3660736524722
+        },
+        "routedByUserInteraction": true,
+        "vertices": [
+          {
+            "x": 7168,
+            "y": 2048
+          },
+          {
+            "x": 7168,
+            "y": 2048
+          },
+          {
+            "x": 7424,
+            "y": 2048
+          },
+          {
+            "x": 7424,
+            "y": 3584
+          },
+          {
+            "x": 6400,
+            "y": 3584
+          },
+          {
+            "x": 6400,
+            "y": 3584
+          }
+        ]
+      },
+      {
+        "className": "ElecWire",
+        "UID": 1552890081435,
+        "x": 0,
+        "y": 0,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "post0": {
+          "UID": 4610679488080,
+          "driver": 1552890064966
+        },
+        "post1": {
+          "UID": 1552890081441,
+          "driver": 1552890071566
+        },
+        "routedByUserInteraction": true,
+        "vertices": [
+          {
+            "x": 5376,
+            "y": 3584
+          },
+          {
+            "x": 5376,
+            "y": 3584
+          },
+          {
+            "x": 4096,
+            "y": 3584
+          },
+          {
+            "x": 4096,
+            "y": 3328
+          },
+          {
+            "x": 4096,
+            "y": 3328
+          }
+        ]
+      },
+      {
+        "className": "ElecWire",
+        "UID": 4212154756629,
+        "x": 0,
+        "y": 0,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "post0": {
+          "UID": 1552890083907,
+          "driver": 1552890071563
+        },
+        "post1": {
+          "UID": 1552890083910,
+          "driver": 1552890058437
+        },
+        "routedByUserInteraction": false
+      }
+    ]
+  }
+}

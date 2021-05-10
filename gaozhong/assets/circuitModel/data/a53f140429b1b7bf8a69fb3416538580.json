@@ -1,0 +1,435 @@
+﻿{
+  "title": "滑动变阻器与电阻并联",
+  "exportBg": false,
+  "exportMode": 0,
+  "showCurrent": true,
+  "style": {
+    "bgColor": "#ffffff",
+    "wireColor": "#000000",
+    "eqColor": "#000000"
+  },
+  "data": {
+    "scale": 0.09158970370000004,
+    "viewBox": {
+      "x": 2081.3481603172836,
+      "y": 2070.6198889035163,
+      "width": 8603.587173740358,
+      "height": 4836.788220770277
+    },
+    "compArr": [
+      {
+        "className": "SlideRheostat2",
+        "UID": 1552896846399,
+        "x": 5888,
+        "y": 3072,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "label": {
+          "text": "R",
+          "subText": "1"
+        },
+        "posts": [
+          {
+            "UID": 4374601840143
+          },
+          {
+            "UID": 4233401717587
+          },
+          {
+            "UID": 3637171909585
+          },
+          {
+            "UID": 4623418920894
+          }
+        ],
+        "type": 2
+      },
+      {
+        "className": "Resistance",
+        "UID": 4455836932301,
+        "x": 5888,
+        "y": 4096,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 5,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "label": {
+          "text": "R",
+          "subText": "2"
+        },
+        "posts": [
+          {
+            "UID": 3337194500887
+          },
+          {
+            "UID": 1552896849273
+          }
+        ]
+      },
+      {
+        "className": "DCPower",
+        "UID": 4030644332464,
+        "x": 6656,
+        "y": 5376,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 1.5,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "label": {
+          "text": "",
+          "subText": ""
+        },
+        "posts": [
+          {
+            "UID": 3119028531825
+          },
+          {
+            "UID": 4126895488463
+          }
+        ],
+        "skinType": 1
+      },
+      {
+        "className": "SingleSwitch",
+        "UID": 4516354496973,
+        "x": 4864,
+        "y": 5376,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": true,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "label": {
+          "text": "S",
+          "subText": ""
+        },
+        "posts": [
+          {
+            "UID": 3942633741185
+          },
+          {
+            "UID": 3424800218147
+          }
+        ]
+      },
+      {
+        "className": "FreePostComp",
+        "UID": 3356153386789,
+        "x": 6912,
+        "y": 3584,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "post": {
+          "UID": 1552896865863
+        }
+      },
+      {
+        "className": "FreePostComp",
+        "UID": 4410254978686,
+        "x": 4608,
+        "y": 3584,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "post": {
+          "UID": 1552896874399
+        }
+      }
+    ],
+    "wireArr": [
+      {
+        "className": "ElecWire",
+        "UID": 3146324297133,
+        "x": 0,
+        "y": 0,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "post0": {
+          "UID": 3818512955086,
+          "driver": 3637171909585
+        },
+        "post1": {
+          "UID": 1552896862006,
+          "driver": 1552896865863
+        },
+        "routedByUserInteraction": false
+      },
+      {
+        "className": "ElecWire",
+        "UID": 4283672269337,
+        "x": 0,
+        "y": 0,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "post0": {
+          "UID": 3254064782124,
+          "driver": 4126895488463
+        },
+        "post1": {
+          "UID": 3611917341632,
+          "driver": 1552896865863
+        },
+        "routedByUserInteraction": true,
+        "vertices": [
+          {
+            "x": 7168,
+            "y": 5376
+          },
+          {
+            "x": 7168,
+            "y": 5376
+          },
+          {
+            "x": 7424,
+            "y": 5376
+          },
+          {
+            "x": 7424,
+            "y": 3584
+          },
+          {
+            "x": 6912,
+            "y": 3584
+          },
+          {
+            "x": 6912,
+            "y": 3584
+          }
+        ]
+      },
+      {
+        "className": "ElecWire",
+        "UID": 4308662794590,
+        "x": 0,
+        "y": 0,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "post0": {
+          "UID": 3962850458856,
+          "driver": 1552896849273
+        },
+        "post1": {
+          "UID": 3113450975426,
+          "driver": 1552896865863
+        },
+        "routedByUserInteraction": false
+      },
+      {
+        "className": "ElecWire",
+        "UID": 4275404035242,
+        "x": 0,
+        "y": 0,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "post0": {
+          "UID": 3781542891856,
+          "driver": 3424800218147
+        },
+        "post1": {
+          "UID": 3295992542613,
+          "driver": 3119028531825
+        },
+        "routedByUserInteraction": false
+      },
+      {
+        "className": "ElecWire",
+        "UID": 4030607755636,
+        "x": 0,
+        "y": 0,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "post0": {
+          "UID": 3206590068619,
+          "driver": 4374601840143
+        },
+        "post1": {
+          "UID": 4559018539019,
+          "driver": 1552896874399
+        },
+        "routedByUserInteraction": false
+      },
+      {
+        "className": "ElecWire",
+        "UID": 3443665540161,
+        "x": 0,
+        "y": 0,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "post0": {
+          "UID": 1552896872660,
+          "driver": 3942633741185
+        },
+        "post1": {
+          "UID": 1552896872661,
+          "driver": 1552896874399
+        },
+        "routedByUserInteraction": true,
+        "vertices": [
+          {
+            "x": 4352,
+            "y": 5376
+          },
+          {
+            "x": 4352,
+            "y": 5376
+          },
+          {
+            "x": 4096,
+            "y": 5376
+          },
+          {
+            "x": 4096,
+            "y": 3584
+          },
+          {
+            "x": 4608,
+            "y": 3584
+          },
+          {
+            "x": 4608,
+            "y": 3584
+          }
+        ]
+      },
+      {
+        "className": "ElecWire",
+        "UID": 3791615764075,
+        "x": 0,
+        "y": 0,
+        "rotType": 0,
+        "isReversed": false,
+        "isBreak": false,
+        "isShortCircuit": false,
+        "sourceU": 0,
+        "sourceI": 0,
+        "R": 0,
+        "L": 0,
+        "C": 0,
+        "ratedP": 0,
+        "ratedU": 0,
+        "ratedI": 0,
+        "post0": {
+          "UID": 1552896874408,
+          "driver": 3337194500887
+        },
+        "post1": {
+          "UID": 1552896874409,
+          "driver": 1552896874399
+        },
+        "routedByUserInteraction": false
+      }
+    ]
+  }
+}

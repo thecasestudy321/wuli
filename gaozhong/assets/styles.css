@@ -1,0 +1,101 @@
+/* 数字上标 */
+.pre-snum {
+  font: 8px 'Times New Roman';
+  vertical-align: super;
+}
+/* 数字下标 */
+.pre-xnum {
+  font: 8px 'Times New Roman';
+  vertical-align: sub;
+}
+/* 字母下标 */
+.pre-xabc {
+  font: italic 11px 'Times New Roman';
+  vertical-align: sub;
+}
+/*字母上标*/
+.pre-sabc {
+  font: 8px 'Times New Roman';
+  vertical-align: super;
+}
+.pre-tipmess-title {
+  font-size: 20px;
+}
+.div-mat-slider-hover{
+  transform: scale(0.7)!important;
+}
+.div-mat-slider-hover:hover{
+  transform: scale(1)!important;
+}
+#preloader{
+  background-color: #100f10 !important;
+}
+.phy-console-list-acoustic{
+  width: 36px;
+  height: 36px;
+  background: url('console-list/acoustic-default.png') no-repeat;
+}
+.phy-console-list-acoustic:active{
+  background: url('console-list/acoustic-pressed.png') no-repeat;
+}
+.phy-console-list-atomicPhysics{
+  width: 36px;
+  height: 36px;
+  background: url('console-list/atomicPhysics-default.png') no-repeat;
+}
+.phy-console-list-atomicPhysics:active{
+  background: url('console-list/atomicPhysics-pressed.png') no-repeat;
+}
+.phy-console-list-elecfamily{
+  width: 36px;
+  height: 36px;
+  background: url('console-list/elecfamily-default.png') no-repeat;
+}
+.phy-console-list-elecfamily:active{
+  background: url('console-list/elecfamily-pressed.png') no-repeat;
+}
+.phy-console-list-electrical{
+  width: 36px;
+  height: 36px;
+  background: url('console-list/electrical-default.png') no-repeat;
+}
+.phy-console-list-electrical:active{
+  background: url('console-list/electrical-pressed.png') no-repeat;
+}
+.phy-console-list-forceAndMotion{
+  width: 36px;
+  height: 36px;
+  background: url('console-list/forceAndMotion-default.png') no-repeat;
+}
+.phy-console-list-forceAndMotion:active{
+  background: url('console-list/forceAndMotion-pressed.png') no-repeat;
+}
+.phy-console-list-mechanics{
+  width: 36px;
+  height: 36px;
+  background: url('console-list/mechanics-default.png') no-repeat;
+}
+.phy-console-list-mechanics:active{
+  background: url('console-list/mechanics-pressed.png') no-repeat;
+}
+.phy-console-list-optical{
+  width: 36px;
+  height: 36px;
+  background: url('console-list/optical-default.png') no-repeat;
+}
+.phy-console-list-optical:active{
+  background: url('console-list/optical-pressed.png') no-repeat;
+}
+.phy-console-list-thermal{
+  width: 36px;
+  height: 36px;
+  background: url('console-list/thermal-default.png') no-repeat;
+}
+.phy-console-list-thermal:active{
+  background: url('console-list/thermal-pressed.png') no-repeat;
+}
+.header-logo{
+  background: url(icon/favicon-80x80.png) no-repeat!important;
+  background-size: 40px 40px!important;
+  padding-left: 50px!important;
+}

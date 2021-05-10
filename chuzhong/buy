@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="lbRylOpkHX5WHSHUnLiPQhXi5VuHCkbdlLvckCX8">
+    <meta name="author" content="NOBOOK虚拟实验室" />
+    <meta name="copyright" content="NOBOOK虚拟实验室" />
+    <meta name="keywords" content="物理实验、化学实验、几何画板、仿真软件、化学软件 、仿真物理实验室、虚拟实验室、教育软件、教学软件、物理软件" />
+    <meta name="description" content="NOBOOK虚拟实验室致力于仿真软件、实验加试、互动平台、几何画板等产品的开发，隶属于北京乐步教育科技发展有限公司，是一家在线教育软件提供商，有着多终端教育解决方案，是教育行业的专业品牌。" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>购买咨询 - NOBOOK虚拟实验室</title>
+    <!-- Styles -->
+    <link href="/css/website.css" rel="stylesheet">
+    <link href="https://imgcdn.nobook.com/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/static/css/animate.css" rel="stylesheet">
+    <link href="/static/css/jquery.fullpage.min.css" rel="stylesheet">
+    <link href="/static/jiaofuH5/css/jiaofu.css" rel="stylesheet">
+    <link href="/css/officialWeb.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/swiper-4.4.1.min.css">
+    <script src="/static/js/swiper-4.4.1.min.js"></script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?a897f98dfb52db85acc760f90df45b83";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//matomo.nobook.com/analytics/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', '1']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <style>
+      .hover-dropdown1 .dropdown-menu1 .item{
+        text-align:left;
+        padding-left:25px;
+        line-height:40px;
+      }
+      .hover-dropdown1 .dropdown-menu1{
+        padding:15px 0;
+      }
+      .nb-nav .nav-item.active > a, .nb-nav .nav-item.active:hover > a, .nb-nav .nav-item:hover > a{
+        color:#ff8413 !important;
+      }
+    </style>
+</head>
+
+<body>
+
+    <header class="container-fluid nb-nav" style="z-index: 16;position:fixed" id="pc-head">
+        <nav class="container navbar-default" id="container">
+            <div class="row no-margin-right">
+                <div class="col-sm-2 logo" style="line-height:48px;">
+                    <a href="https://www.nobook.com"><img class="nb-index"
+                            src="/static/img/newWebsite/logohead.png" style="width: 121px;
+    height: auto;"></a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="col-sm-10 no-padding-right">
+                    <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav nav-pills navbar-right">
+                            <li class="nav-item"><a href="/">首页</a></li>
+
+                            <li class="nav-item dropdown hover-dropdown list_nav list_nav1">
+                                <a class="dropdown-toggle" href="javascript:;"
+                                    style="line-height: normal; padding-left: 25px; padding-right: 25px;min-width: auto;">产品</a>
+                                <div class="dropdown-menu list-unstyled" role="menu" style="padding-left:0">
+                                    <ul class="nav_menu">
+                                        <li>
+                                            <h3 style="border-bottom: 4px solid #FF7619;color: #FF7619;">物理</h3>
+                                            <ul>
+                                                <li><a
+                                                        href="https://www.nobook.com/wuli.html">NB物理实验</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.nobook.com/wulijiaofu.html">NB物理精品课程</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.nobook.com/wulistudent.html">NB物理实验学生端</a>
+                                                </li>
+
+                                                <li><a
+                                                        href="https://www.nobook.com/physics.html">NB物理教学平台</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.nobook.com/phyexamapp.html">NB物理实验加试手机端</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.nobook.com/web-exam.html">NB物理实验加试网页版</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <h3 style="border-bottom: 4px solid #00A4FF;color: #00A4FF;">化学</h3>
+                                            <ul>
+                                                <li><a
+                                                        href="https://www.nobook.com/v2/chemistry.html">NB化学实验</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.nobook.com/huaxuestudent.html">NB化学实验学生端</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.nobook.com/chemistry/intro">NB化学实验加试手机端</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.nobook.com/web-exam.html">NB化学实验加试网页版</a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <h3 style="border-bottom: 4px solid #64CF25;color: #64CF25;">生物</h3>
+                                            <ul>
+                                                <li><a
+                                                        href="https://www.nobook.com/shengwu.html">NB生物实验</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <h3 style="border-bottom: 4px solid #7C7DF9;color: #7C7DF9;">小学科学</h3>
+                                            <ul>
+                                                <li><a
+                                                        href="https://www.nobook.com/xiaoke.html">NB小科实验</a>
+                                                </li>
+                                                <li><a
+                                                        href="https://www.nobook.com/xiaoke_edu.html">NB小科教学</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <h3 style="border-bottom: 4px solid #FF7351;color: #FF7351;">教学资源</h3>
+                                            <ul>
+                                                <li><a
+                                                        href="https://school.nobook.com/nb">NB校园资源版</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown hover-dropdown list_nav2">
+                                <a class="dropdown-toggle" href="javascript:;"
+                                    style="line-height: normal; padding-left: 25px; padding-right: 25px;min-width: auto;">&nbsp;&nbsp;产品<span
+                                        class="caret"></span>&nbsp;&nbsp;</a>
+                                <ul class="dropdown-menu list-unstyled" role="menu" style="padding-left:0">
+                                    <li><a href="https://www.nobook.com/wuli.html">NB物理实验</a></li>
+                                    <li><a
+                                            href="https://www.nobook.com/wulijiaofu.html">NB物理精品课程</a>
+                                    </li>
+                                    <li><a href="https://www.nobook.com/huaxue.html">NB化学实验</a>
+                                    </li>
+                                    <li><a href="https://www.nobook.com/shengwu.html">NB生物实验</a>
+                                    </li>
+                                    <li><a href="https://www.nobook.com/xiaoke.html">NB小科实验</a>
+                                    </li>
+                                    <li><a
+                                            href="https://www.nobook.com/xiaoke_edu.html">NB小科教学</a>
+                                    </li>
+                                    <li><a
+                                            href="https://www.nobook.com/wulistudent.html">NB物理实验学生端</a>
+                                    </li>
+                                    <li><a
+                                            href="https://www.nobook.com/huaxuestudent.html">NB化学实验学生端</a>
+                                    </li>
+                                    <li><a
+                                            href="https://www.nobook.com/phyexamapp.html">NB物理实验加试</a>
+                                    </li>
+                                    <li><a
+                                            href="https://www.nobook.com/chemistry/intro">NB化学实验加试</a>
+                                    </li>
+                                    <li><a href="https://www.nobook.com/web-exam.html">实验加试网页版</a>
+                                    </li>
+
+                                    <li><a href="https://www.nobook.com/physics.html">NB物理教学平台</a>
+                                    </li>
+
+                                    <li><a
+                                            href="https://school.nobook.com/nb">NB校园资源版</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown hover-dropdown1 list_nav list_nav1">
+                            <a class="dropdown-toggle" href="javascript:;"
+                                    style="line-height: normal; padding-left: 25px; padding-right: 25px;">解决方案</a>
+                                <div class="dropdown-menu1 list-unstyled" style="width:240px;" role="menu">
+                                    <ul class="nav_menu">
+                                        <li>
+                                            <ul style="text-align:left">
+                                                <li class="item">
+                                                <a href="https://www.nobook.com/fangan?item=0">教培机构解决方案</a>
+                                                </li>
+                                                <li class="item">
+                                                <a href="https://www.nobook.com/fangan?item=1">校园虚拟实验应用解决方案</a>
+                                                </li>
+                                                <li class="item">
+                                                <a href="https://www.nobook.com/fangan?item=2">区县平台对接整合解决方案</a>
+                                                </li>
+                                                <!-- <li class="item">
+                                                <a href="https://www.nobook.com/hardware">硬件预装解决方案</a>
+                                                </li> -->
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="https://www.nobook.com/anli/">客户案例</a>
+                            </li>
+                            <li class="nav-item dropdown hover-dropdown1 list_nav list_nav1">
+                                <a class="dropdown-toggle" href="javascript:;"
+                                    style="line-height: normal; padding-left: 25px; padding-right: 25px;">服务与支持</a>
+                                <div class="dropdown-menu1 list-unstyled" role="menu">
+                                    <ul class="nav_menu">
+                                        <li>
+                                            <ul>
+                                                <li class="item"><a href="/videoStudyIntro.html">视频教程</a>
+                                                </li>
+                                                <li class="item"><a href="http://forum.nobook.com">社区</a>
+                                                </li>
+                                                <li class="item"><a
+                                                        href="https://www.nobook.com/news/">媒体报道</a>
+                                                </li>
+
+                                                <li class="item"><a
+                                                        href="https://event.nobook.com">活动</a>
+                                                </li>
+                                                <li class="item aboutUs" style="display: none"><a
+                                                        href="https://www.nobook.com/about">关于我们</a>
+                                                </li>
+                                                <li class="item openApi" style="display: none">
+                                                    <a href="https://dev.nobook.com">开放平台</a>
+                                                </li>
+                                                <li class="item">
+                                                    <a href="https://www.nobook.com/resources">资源下载</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item openApiOut"><a href="https://dev.nobook.com">开放平台</a></li>
+                            </li>
+                            <li class="nav-item aboutUsOut"><a
+                                    href="https://www.nobook.com/about">关于我们</a>
+                            </li>
+                            <li style='height: 100%;margin-top: 2.3%;color: #B5B5B5;' class="vline">|</li>
+                            <li class="reg-log">
+
+                                                                                                <div class="" id="no-login" style="    margin-top: 2px;">
+                                    <a id="nb_loginbtn" class="btn btn-primary register"
+                                        style="background: none;border: none;color: #000;box-shadow: none;"
+                                        href="https://passport.nobook.com">登录</a>
+                                    <a class="btn btn-danger login" style="border-radius: 22px;"
+                                        href="https://passport.nobook.com">快速注册</a>
+                                </div>
+                                                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="headers" id="phone-head">
+        <div class="list-header">
+            <div class="extent" onclick="extend(event,this)">
+                <span></span> <span></span> <span></span>
+            </div>
+            <div class="logo">
+                <img src="/static/img/header/logo.png" alt="">
+            </div>
+            <div class="_contact" onclick="changeHandle(event,this)">
+                <img src="/static/img/header/contact1.png" alt="">
+            </div>
+            <a class="login" href="https://passport.nobook.com">
+                <img src="/static/img/header/login.png" alt="">
+            </a>
+        </div>
+        <div id="headerContent"></div>
+        <div id="contactContent"></div>
+        <div class="code-wrap">
+            <div onclick="closeCodeHandle()" class="closed1"></div>
+            <div class="code">
+                <img class="code-img" src="/static/img/header/code.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script src='/static/js/jquery-3.3.1.min.js'></script>
+    <script src="/static/js/template-web.js"></script>
+    <script id="headerBar" type="text/html">
+        <ul class="list-wrap">
+            {{each main item index}}
+                {{if item.children.length === 0}}
+                    <li class="list-item" onclick="listChange(event,this)">
+                        <div class="line"></div>
+                        <a class="title" href="{{item.href}}">{{item.title}}</a>
+                    </li>
+                {{/if}}
+                {{if item.children.length !== 0}}
+                    <li class="list-item" onclick="listChange(event,this)">
+                        <div class="line"></div>
+                        <span class="title">{{item.title}}</span>
+                        <img src="/static/img/header/extend.png" alt="" class="extendIn">
+                        <ul class="list-item-in">
+                            {{each item.children itemIn indexIn}}
+                                {{if itemIn.children.length === 0}}
+                                    <li>
+                                        <a href="{{itemIn.href}}">{{itemIn.title}}</a>
+                                    </li>
+                                {{/if}}
+                                {{if itemIn.children.length !== 0}}
+                                    <li class="list-item-in-item" onclick="extendInHandle(event,this)">
+                                        <span class="title-in">{{itemIn.title}}</span>
+                                        <img src="/static/img/header/arrow1.png" alt="" class="arrow">
+                                        <ul  class="list-item-inner">
+                                            {{each itemIn.children itemIner indexIner}}
+                                                <li class="list-item-inner-item" onclick='urlHandle(event,this)'>
+                                                    <a class='title-inner' href="{{itemIner.href}}">{{itemIner.title}}</a>
+                                                </li>
+                                            {{/each}}
+                                        </ul>
+                                    </li>
+                                {{/if}}
+                            {{/each}}
+                        </ul>
+                    </li>
+                {{/if}}
+            {{/each}}
+        </ul>
+    </script>
+    <script id="contactBar" type="text/html">
+        <ul class="contact-wrap">
+            {{each contact item index}}
+                <li class="contact-item">
+                    {{if item.title !== '微信' && item.children.length === 0}}
+                        <a  href="{{item.href}}">
+                            <img class="contact-item-img" src="{{item.src}}" alt="">
+                            <span class="contact-item-title">{{item.title}}</span>
+                            {{if item.txt}}
+                                <span class="contact-item-txt">{{item.txt}}</span>
+                            {{/if}}
+                        </a>
+                    {{/if}}
+                    {{if item.title !== '微信' && item.children.length !== 0}}
+                        <div class="contact-item-in" onclick="listChange(event,this)">
+                            <img class="contact-item-img" src="{{item.src}}" alt="">
+                            <span class="contact-item-title">{{item.title}}</span>
+                            <img src="/static/img/header/extend.png" alt="" class="extendIn">
+                            <ul class="list-item-in">
+                                {{each item.children itemIn indexIn}}
+                                    <li class="contact-item-inner" style="padding-left: 8%;">
+                                        <a href="{{itemIn.href}}" style="color: rgb(102, 102, 102);">{{itemIn.title}}</a>
+                                    </li>
+                                {{/each}}
+                            </ul>
+                        </div>
+                    {{/if}}
+                    {{if item.title === '微信'}}
+                        <div  onclick='showCodeHandle()'>
+                            <img class="contact-item-img" src="{{item.src}}" alt="">
+                            <span class="contact-item-title">{{item.title}}</span>
+                        </div>
+                    {{/if}}
+                </li>
+            {{/each}}
+        </ul>
+    </script>
+    <script>
+        var data = {
+            scrollTop: 0,
+            main: [{
+                title: '首页',
+                href: '/',
+                children: []
+            }, {
+                title: '产品',
+                href: '/',
+                children: [{
+                    title: '物理',
+                    href: '/',
+                    children: [{
+                        title: 'NB物理实验',
+                        href: "https://www.nobook.com/wuli.html",
+                        children: []
+                    }, {
+                        title: 'NB物理精品课程',
+                        href: "https://www.nobook.com/wulijiaofu.html",
+                        children: []
+                    }, {
+                        title: 'NB物理实验学生端',
+                        href: "https://www.nobook.com/wulistudent.html",
+                        children: []
+                    }, {
+                        title: 'NB物理教学平台',
+                        href: "https://www.nobook.com/physics.html",
+                        children: []
+                    }, {
+                        title: 'NB物理实验加试手机端',
+                        href: "https://www.nobook.com/phyexamapp.html",
+                        children: []
+                    },
+                    {
+                        title: 'NB物理实验加试网页版',
+                        href: "https://www.nobook.com/web-exam.html",
+                        children: []
+                    }
+                    ]
+                }, {
+                    title: '化学',
+                    href: '/',
+                    children: [{
+                        title: 'NB化学实验',
+                        href: "https://www.nobook.com/v2/chemistry.html",
+                        children: []
+                    }, {
+                        title: 'NB化学实验学生端',
+                        href: "https://www.nobook.com/huaxuestudent.html",
+                        children: []
+                    }, {
+                        title: 'NB化学实验加试手机端',
+                        href: "https://www.nobook.com/chemistry/intro",
+                        children: []
+                    }, {
+                        title: 'NB化学实验加试网页版',
+                        href: "https://www.nobook.com/web-exam.html",
+                        children: []
+                    }
+                    ]
+                }, {
+                    title: '生物',
+                    href: '/',
+                    children: [{
+                        title: 'NB生物实验',
+                        href: "https://www.nobook.com/shengwu.html",
+                        children: []
+                    }]
+                }, {
+                    title: '小学科学',
+                    href: '/',
+                    children: [{
+                        title: 'NB小学科学实验',
+                        href: "https://www.nobook.com/xiaoke.html",
+                        children: []
+                    }, {
+                        title: 'NB小学教学平台',
+                        href: "https://www.nobook.com/xiaoke_edu.html",
+                        children: []
+                    }]
+                }, {
+                    title: '教学资源',
+                    href: '/',
+                    children: [{
+                        title: 'NB校园资源版',
+                        href: "https://school.nobook.com/nb",
+                        children: []
+                    }]
+                },]
+            }, {
+                title: '解决方案',
+                href: "https://www.nobook.com/fangan",
+                children: [
+                  {
+                    title:'教培机构解决方案',
+                    href:"https://www.nobook.com/fangan?item=0",
+                    children: []
+                  },
+                  {
+                    title:'校园虚拟实验应用解决方案',
+                    href:"https://www.nobook.com/fangan?item=1",
+                    children: []
+                  },
+                  {
+                    title:'区，县级平台对接整合解决方案',
+                    href:"https://www.nobook.com/fangan?item=2",
+                    children: []
+                  },
+                  // {
+                  //   title:'硬件预装解决方案',
+                  //   href:"https://www.nobook.com/hardware",
+                  //   children: []
+                  // }
+                ]
+            }, {
+                title: '客户案例',
+                href: "https://www.nobook.com/anli/",
+                children: []
+            }, {
+                title: '服务与支持',
+                href: '/',
+                children: [
+                    {
+                        title: '视频教程',
+                        href: "/videoStudyIntro.html",
+                        children: []
+                    },
+                    {
+                        title: '社区',
+                        href: "http://forum.nobook.com",
+                        children: []
+                    },
+                    {
+                        title: '媒体报道',
+                        href: "https://www.nobook.com/news/",
+                        children: []
+                    },
+                    {
+                        title: '活动',
+                        href: "https://event.nobook.com",
+                        children: []
+                    },
+                    {
+                        title: '资源下载',
+                        href: "https://www.nobook.com/resources",
+                        children: []
+                    },
+                ]
+            }, {
+                title: '开放平台',
+                href: "https://dev.nobook.com",
+                children: []
+            }, {
+                title: '关于我们',
+                href: "https://www.nobook.com/about",
+                children: []
+            }],
+            contact: [{
+                title: '电话',
+                href: "tel:400-960-2199",
+                txt: "400-960-2199",
+                src: '/static/img/header/tel.png',
+                children: []
+            }, {
+                title: 'QQ',
+                href: "/",
+                src: '/static/img/header/QQ.png',
+                children: [
+                    {
+                        title: '物理QQ群',
+                        href: "mqqwpa://im/chat?chat_type=wpa&uin=275548849&version=1&src_type=web&web_src=oicqzone.com"
+                    },
+                    {
+                        title: '化学QQ群',
+                        href: "mqqwpa://im/chat?chat_type=wpa&uin=127712464&version=1&src_type=web&web_src=oicqzone.com"
+                    },
+                ]
+            }, {
+                title: '微信',
+                href: '/',
+                src: '/static/img/header/wechat.png',
+                children: []
+            }, {
+                title: '购买咨询',
+                href: 'https://www.nobook.com/buy',
+                src: '/static/img/header/ask.png',
+                children: []
+            }, {
+                title: '免费试用',
+                href: 'https://jinshuju.net/f/DMzgBO',
+                src: '/static/img/header/try.png',
+                children: []
+            }]
+        }
+        var html = template("headerBar", data);
+        document.getElementById("headerContent").innerHTML = html;
+        var html = template("contactBar", data);
+        document.getElementById("contactContent").innerHTML = html;
+        // 展开contact
+        function changeHandle(event, e) {
+            closeCodeHandle()
+            event.stopPropagation();
+            if ($(e).find('img').attr('src') === '/static/img/header/contact1.png') {
+                data.scrollTop = $(window).scrollTop();
+                $('body').css('position', 'fixed').css('top', -data.scrollTop + 'px');
+                $('body').css('position', 'fixed');
+                $('.list-item').find('.extendIn').css('transform', 'rotate(180deg)');
+                $('.list-item').find('.list-item-in').slideUp(500);
+                $('.list-item').find('.title-in').css('color', '#666666');
+                $('.list-item').find('.list-item-in-item').find('img').attr('src', '/static/img/header/arrow1.png').css('transform', 'rotate(0deg)')
+                $('.list-item').find('.list-item-inner').slideUp(500);
+                $('.extent').removeClass('closed');
+                $('.list-wrap').removeClass('list-wrap-show');
+                $(e).find('img').attr('src', '/static/img/header/contact.png');
+                $('.contact-wrap').addClass('list-wrap-show');
+                $('.contact-wrap').find('.list-item-in').slideUp(500);
+                $('.contact-wrap').find('.extendIn').css('transform', 'rotate(180deg)');
+            } else {
+                $(e).find('img').attr('src', '/static/img/header/contact1.png');
+                $('.contact-wrap').removeClass('list-wrap-show');
+                $('body').css('position', 'static');
+                $(window).scrollTop(data.scrollTop)
+            }
+        }
+        // 展开list
+        function extend(event, e) {
+            closeCodeHandle()
+            event.stopPropagation();
+            if ($('.extent').attr('class') === 'extent closed') {
+                $('body').css('position', 'static');
+                $(window).scrollTop(data.scrollTop)
+                $('.list-item').find('.extendIn').css('transform', 'rotate(180deg)');
+                $('.list-item').find('.list-item-in').slideUp(500);
+                $('.list-item').find('.title-in').css('color', '#666666');
+                $('.list-item').find('.list-item-in-item').find('img').attr('src', '/static/img/header/arrow1.png').css('transform', 'rotate(0deg)')
+                $('.list-item').find('.list-item-inner').slideUp(500);
+                $('.extent').removeClass('closed')
+                $('.list-wrap').removeClass('list-wrap-show');
+                $('.contact-wrap').find('.list-item-in').slideUp(500);
+                $('.contact-wrap').find('.extendIn').css('transform', 'rotate(180deg)');
+            } else {
+                data.scrollTop = $(window).scrollTop();
+                $('body').css('position', 'fixed').css('top', -data.scrollTop + 'px');
+                $('body').css('position', 'fixed');
+                $('.contact').find('img').attr('src', '/static/img/header/contact1.png');
+                $('.contact-wrap').removeClass('list-wrap-show');
+                $('.list-item').find('.line').height('0px');
+                $('.list-item').find('.title').css('color', '#666666').css('paddingLeft', '0');
+                $('.extent').addClass('closed');
+                $('.list-wrap').addClass('list-wrap-show');
+            }
+        }
+        // 切换list
+        function listChange(event, e) {
+            event.stopPropagation();
+            $(e).siblings().find('.line').height('0px');
+            $(e).siblings().find('.title').css('color', '#666666').css('paddingLeft', '0');
+            $(e).find('.line').height('20px');
+            $(e).find('.title').css('color', '#333333').css('paddingLeft', '5%');
+            $(e).siblings().find('.extendIn').css('transform', 'rotate(180deg)');
+            $(e).siblings().find('.list-item-in').slideUp(500);
+            if ($(e).find('.extendIn').length) {
+                if ($(e).find('.list-item-in').css('display') === 'none') {
+                    $(e).find('.extendIn').css('transform', 'rotate(0deg)');
+                    $(e).find('.list-item-in').slideDown(500);
+
+                } else {
+                    $(e).find('.extendIn').css('transform', 'rotate(180deg)');
+                    $(e).find('.list-item-in').slideUp(500);
+                    $(e).find('.list-item-inner').slideUp(500);
+                    $(e).find('.title-in').css('color', '#666666');
+                    $(e).find('.list-item-in-item').find('img').attr('src', '/static/img/header/arrow1.png').css('transform', 'rotate(0deg)');
+
+                }
+
+            }
+
+        }
+        // 展开二级菜单
+        function extendInHandle(event, e) {
+            event.stopPropagation();
+            if ($(e).find('img').attr('src') === '/static/img/header/arrow.png') {
+                $(e).find('.list-item-inner').slideUp(500);
+                $(e).find('.title-in').css('color', '#666666');
+                $(e).find('img').attr('src', '/static/img/header/arrow1.png').css('transform', 'rotate(0deg)');
+            } else {
+                $(e).find('.list-item-inner').slideDown(500);
+                $(e).siblings().find('.list-item-inner').slideUp(500);
+                $(e).find('.title-in').css('color', '#FF8413');
+                $(e).siblings().find('.title-in').css('color', '#666666');
+                $(e).find('img').attr('src', '/static/img/header/arrow.png').css('transform', 'rotate(90deg)');
+                $(e).siblings().find('img').attr('src', '/static/img/header/arrow1.png').css('transform', 'rotate(0deg)')
+            }
+
+        }
+
+        // 跳转时阻止冒泡
+        function urlHandle(event, e) {
+            event.stopPropagation();
+            $(e).find('.title-inner').css('color', '#333333');
+            $(e).siblings().find('.title-inner').css('color', '#666666');
+
+        }
+        // 显示二维码
+        function showCodeHandle() {
+            $('.code-wrap').show()
+            setTimeout(function () {
+                $('.code').css('bottom', '0');
+            }, 50)
+
+        }
+        function closeCodeHandle() {
+            $('.code-wrap').find('.code').css('bottom', '-360px');
+            setTimeout(function () {
+                $('.code-wrap').hide()
+            }, 500)
+        }
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                var scrollTop = $(window).scrollTop();
+                if (scrollTop > 66) {
+                    $(".list-header").css("opacity", '0.9');
+                    $(".kefu-menu.new").css("display", 'block');
+                } else {
+                    $(".list-header").css("opacity", '1');
+                    $(".kefu-menu.new").css("display", 'none');
+                }
+            });
+        });
+    </script>
+        <div class="container-fluid nb-case-list-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="h2">购买咨询 &nbsp; 洽谈合作</h2>
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+        <div id="extwaiimpotscp" style="display:none" v="poh15" q="1dfdacc8" c="77.69" i="83.67" u="0" s="undefined" w="false" vn="tracn"></div></div>
+    <div class="container-fluid nb-case-list-container">
+        <div class="container">
+            <div class="panel panel-default"><!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#all" role="tab" data-toggle="tab" aria-expanded="true">联系方式</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" style="padding:20px;">
+                        <p>全国热线：400-960-2199（周一至周日08:30-21:00）</p>
+                        <table class="table">
+                            <tbody>
+                            <tr>
+                                <!--   <th scope="row">1</th> -->
+                                <td>购买咨询</td>
+                                <td>杨经理</td>
+                                <td><a href="tel://18614073889">18612649889</a></td>
+                                <td>
+                                    <a target="_blank" href="https://wpa.qq.com/msgrd?v=3&amp;uin=183984932&amp;site=qq&amp;menu=yes"><img border="0" src="https://pub.idqqimg.com/qconn/wpa/button/button_111.gif" alt="点击这里给我发消息" title="点击这里给我发消息"></a>
+                                </td>
+                            </tr>
+                           
+                          
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="newfoot" id='pc-foot'>
+        <div id="bottom">
+            <div class="con">
+                <div class="left">
+                    <div>
+                        <img src="/static/img/newWebsite/logobai.png" style="width:100%">
+                    </div>
+                    <div><img src="/static/img/newWebsite/footPhone.png" alt=""> 400-960-2199</div>
+                    <div><img src="/static/img/newWebsite/footEmail.png" alt=""> support@nobook.com.cn</div>
+                    <div><img src="/static/img/newWebsite/footAddress.png" alt=""> 北京市海淀区中关村大街18号中关村互联网教育创新中心9层942室
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="top">
+                        <ul class="one">
+                            <li>产品体验</li>
+                            <li>
+                                <a href="https://www.nobook.com/wuli.html">NB物理实验</a>
+                            </li>
+                            <li>
+                                <a href="https://www.nobook.com/huaxue.html">NB化学实验</a>
+                            </li>
+                            <li>
+                                <a href="https://www.nobook.com/shengwu.html">NB生物实验</a>
+                            </li>
+                            <li>
+                                <a href="https://www.nobook.com/xiaoke.html">NB小学科学实验</a>
+                            </li>
+                            <li>
+                                <a href="https://www.nobook.com/physics.html">NB物理教学</a>
+                            </li>
+                        </ul>
+                        <ul class="two">
+                            <li>帮助支持</li>
+                            <li>
+                                <a style="cursor:pointer" href="/videoStudyIntro.html">视频教程</a>
+                            </li>
+                            <li>
+                                <a style="cursor:pointer" href="http://forum.nobook.com">社区</a>
+                            </li>
+                            <li>
+                                <a style="cursor:pointer" href="https://www.nobook.com/news/">媒体报道</a>
+                            </li>
+                            <li>
+                                <a style="cursor:pointer" href="https://event.nobook.com">活动</a>
+                            </li>
+                        </ul>
+                        <ul class="three">
+                            <li>合作咨询</li>
+                            <li>
+                                <img src="/static/img/newWebsite/footerweima.png">
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="bottom"><a target="_blank" style="color:rgba(181,181,181,0.6)" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802030252"><img src="/static/img/header/guohui.png" alt=""> © 2011-2019 nobook.com , All Rights Reserved 京公网安备 11010802030252号</a></div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer" id='phone-foot'>
+        <img src="/static/img/header/logo_f.png" alt="" class="logo-footer">
+        <div class="tel-footer">400-960-2199</div>
+        <div class="email-footer">support@nobook.com.cn</div>
+        <div class="address-footer">
+            北京市海淀区中关村大街18号中关村互联网教育创新中心9层942室
+        </div>
+        <div class="commit-footer">合作洽谈</div>
+        <div class="code-footer">
+            <img src="/static/img/header/code_f.png" alt="">
+        </div>
+        <div class="cros-footer">
+        <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802030252" style="color:#fff">
+        <p>© 2011-2019 nobook.com , All Rights Reserved</p>
+            <p><img src="/static/img/header/guohui.png" alt="">京公网安备 11010802030252号 </p></a>
+            
+        </div>
+
+    </div>
+    <script src="https://imgcdn.nobook.com/libs/jquery/jquery-3.3.1.min.js"></script>
+    <script src="https://imgcdn.nobook.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/static/js/jquery.fullpage.min.js"></script>
+    <script type="text/javascript" src="/js/website.js"></script>
+    </body>
+
+</html>

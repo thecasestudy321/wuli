@@ -1,0 +1,1 @@
+class t{static domQuerySelector(t,e){return t.shadowRoot?t.shadowRoot.querySelector(e):t.querySelector(e)}static pointIndom(t,e){let r=!1;for(let o=0;o<e.length;o++){const s=e[o];if(s&&t.x>s.left&&t.x<s.right&&t.y>s.top&&t.y<s.bottom){r=!0;break}}return r}}export{t as D};

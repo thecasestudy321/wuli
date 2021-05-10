@@ -1,0 +1,1 @@
+var r=function(r,n,t){for(var a=-1,e=Object(r),o=t(r),u=o.length;u--;){var f=o[++a];if(!1===n(e[f],f,e))break}return r},n=function(r,n){return function(t){return r(n(t))}};export{r as b,n as o};
